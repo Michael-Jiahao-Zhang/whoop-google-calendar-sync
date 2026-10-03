@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.clasp.json
+.clasprc.json
+node_modules/
+coverage/
+*.log
+credentials*.json
+tokens*.json
+secrets*.json
+local-settings*
+screenshots/

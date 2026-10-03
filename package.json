@@ -1,0 +1,9 @@
+{
+  "name": "whoop-google-calendar-sync",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal WHOOP sleep and workout synchronization for Google Apps Script",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node tests/sync.cjs && node tests/integration.cjs && node tests/migration.cjs"}
+}
